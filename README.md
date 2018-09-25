@@ -11,12 +11,12 @@
 4. axios
 
 ####项目结构
---src
-  --assets 媒体资源文件
-  --common 项目公共方法
-  --components 项目公共模板组件
-  --router 项目路由
-  --view 页面编写目录
+1. src
+  1.1. assets 媒体资源文件
+  1.2. common 项目公共方法
+  1.3. components 项目公共模板组件
+  1.4. router 项目路由
+  4.5. view 页面编写目录
 
 #### 安装教程
 
