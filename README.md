@@ -47,6 +47,11 @@
         <th>view</th>
         <th>前端界面</th>
     </tr>
+    <tr>
+        <th>.eslintrc</th>
+        <th></th>
+        <th>eslint 规范</th>
+    </tr>
 </table>
 
 #### 安装教程
