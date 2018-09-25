@@ -12,31 +12,42 @@
 
 ####项目结构
 <table>
-        <tr>
-            <th>设备</th>
-            <th>设备文件名</th>
-            <th>文件描述符</th>
-            <th>类型</th>
-        </tr>
-        <tr>
-            <th>键盘</th>
-            <th>/dev/stdin</th>
-            <th>0</th>
-            <th>标准输入</th>
-        </tr>
-        <tr>
-            <th>显示器</th>
-            <th>/dev/stdout</th>
-            <th>1</th>
-            <th>标准输出</th>
-        </tr>
-        <tr>
-            <th>显示器</th>
-            <th>/dev/stderr</th>
-            <th>2</th>
-            <th>标准错误输出</th>
-        </tr>
-    </table>
+    <tr>
+        <th>根目录</th>
+        <th>子目录</th>
+        <th>说明</th>
+    </tr>
+    <tr>
+        <th>src</th>
+        <th>api</th>
+        <th>API接口存放</th>
+    </tr>
+    <tr>
+        <th></th>
+        <th>assets</th>
+        <th>静态资源存放（images， sass）</th>
+    </tr>
+    <tr>
+        <th></th>
+        <th>common</th>
+        <th>项目公共方法</th>
+    </tr>
+    <tr>
+        <th></th>
+        <th>components</th>
+        <th>公共组件</th>
+    </tr>
+    <tr>
+        <th></th>
+        <th>router</th>
+        <th>项目路由</th>
+    </tr>
+    <tr>
+        <th></th>
+        <th>view</th>
+        <th>前端界面</th>
+    </tr>
+</table>
 
 #### 安装教程
 
