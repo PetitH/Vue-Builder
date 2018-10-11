@@ -4,10 +4,10 @@
 
 <script>
 export default {
-  name: 'home'
+	name: 'home'
 }
 </script>
 
 <style lang="scss">
-@import "../../assets/sass/them"
+@import "../../assets/sass/them";
 </style>

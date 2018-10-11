@@ -12,7 +12,7 @@ module.exports = {
     'standard'
   ],
   plugins: [
-    'vue'
+    'vue',
     'es6'
   ],
   // 开启规则和发生错误时报告的等级 
@@ -26,6 +26,7 @@ module.exports = {
     'no-undefined': 2,
     'generator-star-spacing': 0,
     'no-mixed-spaces-and-tabs': 2,
-    'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0
+    'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
+    'no-tabs': 0,
   }
 }

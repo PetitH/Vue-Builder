@@ -9,13 +9,13 @@ module.exports = {
 
     // Paths
     assetsSubDirectory: 'static',
-    assetsPublicPath: './',
+    assetsPublicPath: '/',
     proxyTable: {},
 
     // Various Dev Server settings
     host: 'localhost', // 可以被process.env.HOST覆盖
     port: 8080, // 可以被process.env.PORT覆盖，如果端口正在使用，将确定一个免费的端口
-    autoOpenBrowser: false,
+    autoOpenBrowser: true,
     errorOverlay: true,
     notifyOnErrors: true,
     poll: false, // https://webpack.js.org/configuration/dev-server/#devserver-watchoptions-
@@ -50,7 +50,7 @@ module.exports = {
     // 定义的是静态资源的根目录 也就是dist目录
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
+    assetsPublicPath: './',
 
     /**
      * 定义是否生成生产环境的sourcmap，sourcmap是用来debug编译后文件的，通过映射到编译前文件来实现
